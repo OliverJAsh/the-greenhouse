@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Greenhouse</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+    <div class="backgroundImageContainer">
+    <div class="backgroundImageContainerContent">
+        <div class="main">
+            <header>
+                <h1 class="headerTitle">
+                    <div class="headerTitleText">The Greenhouse</div>
+                    <!-- We specify dimensions here to avoid layout reflow as image loads. -->
+                    <img src="./assets/logo.svg" width="150" height="150" />
+                </h1>
+                <h2 class="headerSubTitle">
+                    Collaborative workspace,
+                    <br />
+                    studios and events.
+                </h2>
+                <div class="headerOpeningSoonText">Opening soon</div>
+            </header>
+
+            <div class="contactDetails">
+                <div class="contactDetailsItem">
+                    <span class="contactDetailsItemLabel">Enquiries:</span>
+                    <a href="mailto:hello@the-greenhouse.org.uk">hello@the-greenhouse.org.uk</a>
+                </div>
+                <div class="contactDetailsItem">
+                    <span class="contactDetailsItemLabel contactDetailsItemFollowUsLabel">Follow us:</span>
+                    <!-- [1] We specify dimensions here to avoid layout reflow as image loads. -->
+                    <ul class="contactDetailsItemFollowUsList">
+                        <li class="contactDetailsItemFollowUsListItem"><a class="contactDetailsItemFollowUsListItemAnchor"
+                                href="https://facebook.com/thegreenhousehq">
+                                <!-- [1] -->
+                                <img width="25" height="25" class="contactDetailsItemFollowUsListItemIcon" src="./assets/social-icons/facebook.svg" />
+                                <span class="contactDetailsItemFollowUsListItemLabel">Facebook</span>
+                            </a></li>
+                        <li class="contactDetailsItemFollowUsListItem"><a class="contactDetailsItemFollowUsListItemAnchor"
+                                href="https://twitter.com/thegreenhousehq">
+                                <!-- [1] -->
+                                <img width="25" height="25" class="contactDetailsItemFollowUsListItemIcon" src="./assets/social-icons/twitter.svg" />
+                                <span class="contactDetailsItemFollowUsListItemLabel">Twitter</span>
+                            </a></li>
+                        <li class="contactDetailsItemFollowUsListItem"><a class="contactDetailsItemFollowUsListItemAnchor"
+                                href="https://instagram.com/thegreenhousehq">
+                                <!-- [1] -->
+                                <img width="25" height="25" class="contactDetailsItemFollowUsListItemIcon" src="./assets/social-icons/instagram.svg" />
+                                <span class="contactDetailsItemFollowUsListItemLabel">Instagram</span>
+                            </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footerItem footerCopyright">2018 © The Greenhouse</div>
+            <a href="https://goo.gl/maps/4HLB1yo7Ag72" class="footerItem footerAddress">Stonegate Road, Meanwood,
+                Leeds, LS6 4HY</a>
+        </footer>
+    </div>
+    </div>
+</body>
+
+</html>

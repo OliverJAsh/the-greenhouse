@@ -1,0 +1,1 @@
+- [ ] Remove hardcoded SVG fill, inline SVGs instead (?)

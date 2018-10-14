@@ -1,0 +1,19 @@
+{
+  "name": "the-greenhouse",
+  "private": true,
+  "scripts": {
+    "clean": "rm -rf ./target/",
+    "compileAssets": "cp -r ./src/assets/ ./target/assets/",
+    "compileHtml": "cp ./src/index.html ./target/",
+    "compileCss": "postcss ./src/index.css --use postcss-cssnext --dir ./target/",
+    "compile": "npm run clean && npm run compileCss && npm run compileHtml && npm run compileAssets",
+    "startServer": "http-server -c-1 ./target/",
+    "start": "npm run compile && npm run startServer"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "postcss": "^7.0.5",
+    "postcss-cli": "^6.0.0",
+    "postcss-cssnext": "^3.1.0"
+  }
+}
